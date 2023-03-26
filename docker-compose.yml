@@ -1,0 +1,9 @@
+version: '3'
+services:
+  fastapitest:
+    build: .
+    volumes:
+      - .:/usr/src/app
+
+    ports:
+      - 8000:80
